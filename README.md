@@ -28,12 +28,12 @@ The system follows a distributed client-server architecture:
 ```
 ┌─────────────┐         Socket          ┌──────────────────┐
 │   Client    │◄─────────────────────►  │  Server (ROS2)   │
-│             │                          │                  │
-│ - Robot     │                          │ - Socket Bridge  │
-│   Control   │                          │ - Grasp Pipeline │
-│ - Image     │                          │ - GraspNet       │
-│   Capture   │                          │ - Grounded-SAM   │
-└─────────────┘                          └──────────────────┘
+│             │                         │                  │
+│ - Robot     │                         │ - Socket Bridge  │
+│   Control   │                         │ - Grasp Pipeline │
+│ - Image     │                         │ - GraspNet       │
+│   Capture   │                         │ - Grounded-SAM   │
+└─────────────┘                         └──────────────────┘
 ```
 
 ### Server Components (ROS 2)
